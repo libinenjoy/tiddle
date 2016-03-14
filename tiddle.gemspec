@@ -19,8 +19,8 @@ Gem::Specification.new do |spec|
 
   spec.required_ruby_version = '>= 2.1.0'
 
-  spec.add_dependency "devise", ">= 4.0.0.rc1", "< 4.1"
-  spec.add_dependency "activerecord", ">= 4.2.0"
+  spec.add_dependency "devise", ">= 3.5.0"
+  spec.add_dependency "activerecord", ">= 4.1.0"
   spec.add_development_dependency "bundler", "~> 1.7"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec-rails"
